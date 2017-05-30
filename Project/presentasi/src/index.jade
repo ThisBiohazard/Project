@@ -4,16 +4,24 @@ html
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
     title Tugas Project
-
+    <link rel="shortcut icon" href="http://ariana.xtgem.com/poto/gue84.jpg">
     link(rel='stylesheet', type='text/css', href='build/build.css')
-
+    script(src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js")
+    script(type="text/javascript" src='build/jquery.cycle.all.latest.js')
+    script(type="text/javascript")
+        $(document).ready(function(){$('#content-slider').cycle({fx:'zoom'});});
   body
 
     article(id="ppp")
 
       section(id="p01")
         <h1 id="hh"><marquee>Microsoft Hololens</marquee></h1>
-        <img src="https://winpoin.com/wp-content/uploads/2015/12/HoloLens.jpg" alt="Smiley face" style="float:right;width:300px;height:200px;"> 
+        div(id="content-slider")
+            <img src="https://winpoin.com/wp-content/uploads/2015/12/HoloLens.jpg" alt="Smiley face" style="float:center;width:300px;height:250px;"/>
+            <img src="https://cdn.evbuc.com/eventlogos/158963085/8d104c85a5b64ada973291b25e644aad.jpg" alt="Smiley face" style="float:right;width:300px;height:250px;"/>
+            <img src="https://upload.wikimedia.org/wikipedia/en/2/23/Microsoft_HoloLens_logo_2015.png" alt="Smiley face" style="float:right;width:300px;height:250px;"/>
+            <img src="https://www.kreasitekno.com/wp-content/uploads/2016/09/26.jpg" alt="Smiley face" style="float:right;width:300px;height:250px;"/>
+            <img src="https://c.slashgear.com/wp-content/uploads/2016/02/tone-800x420.jpg" alt="Smiley face" style="float:right;width:300px;height:250px;"/>
         h2(id="p02").bullet presented by
         ul
           li Indra Arif Rizky
