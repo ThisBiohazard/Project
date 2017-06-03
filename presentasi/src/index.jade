@@ -4,68 +4,83 @@ html
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
     title Tugas Project
-
     link(rel='stylesheet', type='text/css', href='build/build.css')
-
+    script(src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js")
+    script(type="text/javascript" src='build/jquery.cycle.all.latest.js')
+    script(type="text/javascript")
+        $(document).ready(function(){$('#content-slider').cycle({fx:'zoom'});});
   body
 
-    article
+    article(id="ppp")
 
-      section
-        h1 Tugas Project
-
-      section
-        h2 Keyboard Interaction
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-keys">bespoke-keys</a>
-
-      section
-        h2 Touch Interaction
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-touch">bespoke-touch</a>
-
-      section
-        h2 Responsive Slides
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-scale">bespoke-scale</a>
-
-      section
-        h2 Bullet List
-        h3.bullet Powered by <a href="https://github.com/markdalgleish/bespoke-bullets">bespoke-bullets</a>
+      section(id="p01")
+        <h1 id="hh"><marquee>Microsoft Hololens</marquee></h1>
+        div(id="content-slider")
+            <img src="https://winpoin.com/wp-content/uploads/2015/12/HoloLens.jpg" alt="Smiley face" style="float:center;width:300px;height:250px;"/>
+            <img src="https://cdn.evbuc.com/eventlogos/158963085/8d104c85a5b64ada973291b25e644aad.jpg" alt="Smiley face" style="float:right;width:300px;height:250px;"/>
+            <img src="https://upload.wikimedia.org/wikipedia/en/2/23/Microsoft_HoloLens_logo_2015.png" alt="Smiley face" style="float:right;width:300px;height:250px;"/>
+            <img src="https://www.kreasitekno.com/wp-content/uploads/2016/09/26.jpg" alt="Smiley face" style="float:right;width:300px;height:250px;"/>
+            <img src="https://c.slashgear.com/wp-content/uploads/2016/02/tone-800x420.jpg" alt="Smiley face" style="float:right;width:300px;height:250px;"/>
+        h2(id="p02").bullet presented by
         ul
-          li Bullet 1
-          li Bullet 2
-          li Bullet 3
+          li Indra Arif Rizky
+          li Irlan Maranda
+          li Muhammad Fathur
+          
+      section(id="p03")
+        <h1 id="hh"><marquee>Apa itu Microsoft Hololens?</marquee></h1>
+        li Microsoft HoloLens adalah sebuah teknologi komputasi visual yang memiliki fungsi mirip seperti kacamata pintar. Microsoft Hololens menggabungkan antara virtual reality dan augmented reality sehingga menciptakan mixed reality. Mixed reality memungkinkan membawa tampilan grafis dalam dunia virtual ke dalam dunia nyata. Pengguna bisa berinteraksi dengan benda virtual yang dihasilkan oleh microsoft hololens.Microsoft Hololens juga mampu mengenali tatapan dan suara. Microsoft Hololens dilengkapi dengan lensa high definition see through holographic yang memungkinkan pengguna dapat membuat dan membentuk hologram dengan gerakan, berkomunikasi dengan aplikasi menggunakan suara. Microsoft HoloLens dapat memberi info lebih detail tentang apa yang sedang dilihat pengguna atau memahami perintah pengguna, baik perintah dengan perkatakan, atau melalui gerakan tubuh.
 
       section
-        h2 Syntax Highlighting
-        h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
-        pre
-          code.language-javascript.
-            bespoke.from('article', [
-              classes(),
-              keys(),
-              touch(),
-              bullets('li, .bullet')
-            ]);
-
-      section(data-bespoke-hash='named-route')
-        h2 Named Route
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
-        p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
-
-      section.emphatic-text(data-bespoke-backdrop='emphatic')
-        h2 Emphatic Slide!
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a>
+        h2 Spesifikasi Teknis
+        li See-through holographic lenses (waveguides)
+        li 2 HD 16:9 light engines
+        li Automatic pupillary distance calibration
+        li Holographic Resolution: 2.3M total light points
+        li Holographic Density: >2.5k radiants (light points per radian)
+        
 
       section
-        h2.bullet Just the beginning...
-        br
-        ul
-          li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
-          li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
-          li Edit JavaScript in <em>'src/scripts/main.js'</em>
-        br
-        ul
-          li
-            strong Enjoy! :)
-            a(href='http://twitter.com/markdalgleish')  -@markdalgleish
+        h2 Sensors
+        li 1 IMU
+        li 4 environment understanding cameras
+        li 1 depth camera
+        li 1 2MP photo / HD video camera
+        li Mixed reality capture
+        li 4 microphones
+        li 1 ambient light sensor
+
+      section
+         h2 Input/ Output/ Connectivity :
+         li Built-in speakers
+         li Audio 3.5mm jack 
+         li Volume up/down
+         li Brightness up/down
+         li Tombol power
+         li Battery status LEDs
+         li Wi-Fi 802.11ac
+         li Micro-USB 2.0
+         li Kabel
+         
+      section
+        h2 OS and Apps :
+        li Windows 10
+        li Windows Store
+
+      section
+        h2 Processors :
+        li Intel 32 bit architecture
+        li Microsoft Holographic Processing Unit (HPU 1.0)
+
+      section
+        h2 Memory :
+        li 64GB Flash
+        li 2GB RAM (2GB CPU and 1GB HPU)
+        h3 Weight :
+        li 579 g
+
+      section
+        h2 well aku cuma bisa sampe sini buat materinya, mohon bantuannya
+        h2 dan karena baru belajar, cuma aku dah ngerti caranya, besok kubalap semua materinya.
 
     script(src='build/build.js')
