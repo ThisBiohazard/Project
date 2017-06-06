@@ -43,39 +43,137 @@ html
         
 
       section(id="p08")
-        h1(id="hh") 
+        h1(id="hh")     
             marquee Tapi bagaimana HoloLens bisa bekerja?
-        p(id="p04") satu yang paling penting adalah cara mereka menampilkan gambar tepat di depan mata si pengguna. Seperti perangkat elektronik pada umumnya, mereka menggunakan layar untuk melakukan pekerjaan ini. Namun layar yang digunakan bukanlah layar biasa. Layar yang digunakan disini adalah layar transparan yang berada di bagian dalam perangkat ini. Jadi, daripada menutupi lingkungan sekitar dengan layar, HoloLens menggunakan lingkungan sekitar tersebut dan menambah lapisan dimana gambar hologram tersebut berada. Layar transparan inilah yang membuat pengguna tetap bisa melihat apa yang ada dibaliknya.
+        p(id="q01") satu yang paling penting adalah cara mereka menampilkan gambar tepat di depan mata si pengguna. Seperti perangkat elektronik pada umumnya, mereka menggunakan layar untuk melakukan pekerjaan ini. Namun layar yang digunakan bukanlah layar biasa. Layar yang digunakan disini adalah layar transparan yang berada di bagian dalam perangkat ini. Jadi, daripada menutupi lingkungan sekitar dengan layar, HoloLens menggunakan lingkungan sekitar tersebut dan menambah lapisan dimana gambar hologram tersebut berada. Layar transparan inilah yang membuat pengguna tetap bisa melihat apa yang ada dibaliknya.
         
 
       section(id="p07")
         h1(id="hh") 
             marquee Sambungan...       
-        p(id="p04") Tentu ada banyak lainnya selain layar transparan di HoloLens ini. Bagaimana cara mereka membuat objek yang ada bisa dilihat dari segala arah? Sensor yang terdapat di atas layar HoloLens adalah jawabannya. Perangkat ini memiliki beberapa sensor dan kamera di bagian depannya untuk memindai ruangan di sekitar anda dan mengumpulkan informasi yang ada sebanyak-banyaknya. Berdasarkan informasi dari sensor tersebut, HoloLens akan meletakkan objek dalam ruang 3D di dalamnya dan menampilkan gambar yang tepat berdasarkan posisi anda. Microsoft belum mengatakan secara detil apa sensor yang dipakai untuk memetakan ruangan sekitar, tapi kemungkinan besar sensor tersebut menggunakan kombinasi dari video dan infrared untuk memperkirakan jauh dekatnya tembok dan objek di sekitar pengguna. Sensor tersebut dapat melihat sebesar 120 derajat dan selain memindai ruangan di sekitar anda, sensor tersebut juga akan mendeteksi tangan anda untuk berinteraksi dengan apa yang ditampilkan oleh HoloLens.
+        p(id="q02") Tentu ada banyak lainnya selain layar transparan di HoloLens ini. Bagaimana cara mereka membuat objek yang ada bisa dilihat dari segala arah? Sensor yang terdapat di atas layar HoloLens adalah jawabannya. Perangkat ini memiliki beberapa sensor dan kamera di bagian depannya untuk memindai ruangan di sekitar anda dan mengumpulkan informasi yang ada sebanyak-banyaknya. Berdasarkan informasi dari sensor tersebut, HoloLens akan meletakkan objek dalam ruang 3D di dalamnya dan menampilkan gambar yang tepat berdasarkan posisi anda. Microsoft belum mengatakan secara detil apa sensor yang dipakai untuk memetakan ruangan sekitar, tapi kemungkinan besar sensor tersebut menggunakan kombinasi dari video dan infrared untuk memperkirakan jauh dekatnya tembok dan objek di sekitar pengguna. Sensor tersebut dapat melihat sebesar 120 derajat dan selain memindai ruangan di sekitar anda, sensor tersebut juga akan mendeteksi tangan anda untuk berinteraksi dengan apa yang ditampilkan oleh HoloLens.
          
-      section
+      section(id="p10")
         h1(id="hh") 
             marquee Sambungan...
-        p(id="p05") Tentu saja, memindai ruangan dam gerak tangan tidaklah cukup. HoloLens juga harus mendeteksi gerak gerik kepala anda. Maka dari itu, HoloLens juga mempunyai accelerometer yang digunakan untuk mengetahui seberapa cepat kepala anda bergerak, gyroscope untuk mengetahui kemiringan dari kepala pengguna dan juga magnetometer untuk menjalankan kompas. Data-data tersebut kemudian dikombinasikan dan digunakan untuk mengetahui ruangan anda dan dimana kepala penggunan. Data-data yang diambil oleh HoloLens bisa dikatakan sangat banyak. Seseorang dari Microsoft mengatakan bahwa data yang diambil dari sensor-sensor tersebut bahkan mencapai skala terabyte. Angka tersebut jauh diatas angka maksimal dari ukuran yang bisa ditangani oleh perangkat mobile. Namun, hardware dari HoloLens ini tidak perlu untuk memproses data sebesar ini, karena adanya HPU, atau Holographic Processing Unit. Prosesor ini akan mengecilkan data-data dari sensor tadi menjadi potongan-potongan data yang jauh lebih kecil dan bisa ditangani oleh CPU dan GPU dari HoloLens. 
+        p(id="q03") Tentu saja, memindai ruangan dan gerak tangan tidaklah cukup. HoloLens juga harus mendeteksi gerak gerik kepala anda. Maka dari itu, HoloLens juga mempunyai accelerometer yang digunakan untuk mengetahui seberapa cepat kepala anda bergerak, gyroscope untuk mengetahui kemiringan dari kepala pengguna dan juga magnetometer untuk menjalankan kompas. Data-data tersebut kemudian dikombinasikan dan digunakan untuk mengetahui ruangan anda dan dimana kepala penggunan. Data-data yang diambil oleh HoloLens bisa dikatakan sangat banyak. Seseorang dari Microsoft mengatakan bahwa data yang diambil dari sensor-sensor tersebut bahkan mencapai skala terabyte. Angka tersebut jauh diatas angka maksimal dari ukuran yang bisa ditangani oleh perangkat mobile. Namun, hardware dari HoloLens ini tidak perlu untuk memproses data sebesar ini, karena adanya HPU, atau Holographic Processing Unit. Prosesor ini akan mengecilkan data-data dari sensor tadi menjadi potongan-potongan data yang jauh lebih kecil dan bisa ditangani oleh CPU dan GPU dari HoloLens. 
 
-      section
+      section(id="p11")
         h1(id="hh") 
             marquee Sambungan...
-        p(id="p05") Merasa ada yang kurang? Tepat sekali. Hal tersebut adalah suara. HoloLens mempunyai speaker di sebelah kanan dan kirinya. Speaker ini tidak akan menutup suara sekitar anda seperti earphone biasanya. Mereka menggunakan suara binaural, yang adalah teknologi suara 3D untuk membuat suara yang ada terletak seperti bersumber dari objek yang ada di HoloLens. Jadi katakanlah anda membuat tv di tembok anda, ketika berputar suara dari tv itu akan terasa seperti dibelakang anda. Dan hal luar biasa lainnya adalah perangkat ini tidak butuh untuk dikoneksikan ke komputer atau apapun. Mereka sepenuhnya wireless dan semua yang ditampilkan oleh HoloLens diproses langsung dari hardwarenya. Bayangkan jika Anda bisa menampilkan ramalan cuaca, atau update dari media sosial anda, bahkan membuat hewan peliharaan hologram di rumah anda. 
+        p(id="q04") Merasa ada yang kurang? Tepat sekali. Hal tersebut adalah suara. HoloLens mempunyai speaker di sebelah kanan dan kirinya. Speaker ini tidak akan menutup suara sekitar anda seperti earphone biasanya. Mereka menggunakan suara binaural, yang adalah teknologi suara 3D untuk membuat suara yang ada terletak seperti bersumber dari objek yang ada di HoloLens. Jadi katakanlah anda membuat tv di tembok anda, ketika berputar suara dari tv itu akan terasa seperti dibelakang anda. Dan hal luar biasa lainnya adalah perangkat ini tidak butuh untuk dikoneksikan ke komputer atau apapun. Mereka sepenuhnya wireless dan semua yang ditampilkan oleh HoloLens diproses langsung dari hardwarenya. Bayangkan jika Anda bisa menampilkan ramalan cuaca, atau update dari media sosial anda, bahkan membuat hewan peliharaan hologram di rumah anda. 
 
-      section
+      section(id="p12")
+        h1(id="hh")
+            marquee Harga dan jadwal rilis microsoft hololens
+        p(id="q05") Versi pra-produksi HoloLens, the Develop Edition, dikirim pada tanggal 30 Maret 2016, dan ditargetkan untuk pengembang di Amerika Serikat dan Kanada dengan harga $ 3000. Samsung dan Asus telah memberikan penawaran kepada Microsoft untuk membantu menghasilkan produk campuran realitas mereka, bekerja sama dengan Microsoft, yang berbasis di seputar konsep dan perangkat keras di HoloLens. Pada tanggal 12 Oktober 2016, Microsoft mengumumkan perluasan HoloLens secara global dan mengumumkan bahwa HoloLens akan tersedia untuk preorder di Australia, Irlandia, Prancis, Jerman, Selandia Baru dan Inggris. Ada juga Commercial Suite (mirip dengan edisi pro Windows), dengan fitur enterprise, seperti keamanan bitlocker. Suite ini dijual seharga $ 5.000.
 
-      section
-        h2 
-            Microsoft HoloLens, 3D Hologram in Real Life
-        p(id="p04") Microsoft HoloLens meluncurkan prototipe pertamanya di Redmond, Washington baru-baru ini. Bentuk Microsoft HoloLens nampak seperti headset yang mencolok, ramping dengan lensa transparan. Anda masih dapat melihat dunia di sekitar Anda melalui alat tersebut, tapi tiba-tiba dunia yang berubah dengan objek 3D mengambang di udara, layar virtual pada dinding dan ruang tamu Anda tertutup karakter virtual memantul dari dinding. Microsoft HoloLens memiliki semua kerja komputer yang diintegrasikan langsung kedalam headset. Itu berarti tidak ada kabel atau bahkan smartphone diperlukan untuk mengoperasikannya. Teknologi di dalamnya membuat perangkat canggih ini mengenali gerakan, suara pengguna serta bisa memetakan keadaan sekitar.
-
-      section  
-          p(id="p05") Microsoft berbagi contoh revolusioner bagaimana Windows 10 memungkinkan pergeseran dari tampilan tradisional mesin-sentris dari komputasi menjadi interaksi yang jauh lebih pribadi dan humanistik. Sebagai platform komputasi hologram pertama di dunia, Windows 10 meliputi satu set API yang memungkinkan pengembang untuk menciptakan pengalaman hologram dunia secara nyata. Melalui Windows 10, hologram dapat menjadi aplikasi universal Windows, dan semua aplikasi universal Windows lainnya juga mampu bekerja sebagai hologram –hal yang memungkinkan pengguna untuk menempatkan hologram tiga dimensi dalam dunia nyata dan memungkinkan mereka untuk mendapatkan cara-cara baru dalam berkomunikasi, serta mengeksplorasi hal-hal yang lebih personal.
-
-      section
-          <img src="http://2.bp.blogspot.com/-bMYzbjKBJcc/VOofNcs6HtI/AAAAAAAABJA/k-zVwvP9Ato/s1600/hololens-4.jpg" alt="Smiley face" style="float:center;width:500px;height:350px;"/>
-
-
-
+      section(id="p0001")
+           h1(id="hh")
+            marquee Spesifikasi Teknis
+           p(id="q06").bullets Optics
+           ul
+              li
+              li 1. See-through holographic lenses (waveguides)
+              li 2. 2 HD 16:9 light engines
+              li 3. Automatic pupillary distance calibration
+              li 4. Holographic Resolution: 2.3M total light points
+              li 5. Holographic Density: >2.5k radiants (light points per radian)
+        
+        section(id="p0002")
+            h1(id="hh")
+             marquee Spesifikasi Teknis
+            p(id="q07").bullets Sensors
+            ul
+                li
+                li 1. 1 IMU
+                li 2. environment understanding cameras
+                li 3. 1 depth camera
+                li 4. 1 2MP photo / HD video camera
+                li 5. Mixed reality capture
+                li 6. 4 microphones
+                li 7. 1 ambient light sensor
+                
+        section(id="p0003")
+            h1(id="hh")
+             marquee Spesifikasi Teknis
+            p(id="q08").bullets Input/ Output/ Connectivity :
+            ul
+                li
+                li 1. Built-in speakers
+                li 2. Audio 3.5mm jack 
+                li 3. Volume up/down
+                li 4. Brightness up/down
+                li 5. Tombol power
+                li 6. Battery status LEDs
+                li 7. Wi-Fi 802.11ac
+                li 8. Micro-USB 2.0
+                li 9. Kabel
+                
+        section(id="p0004")
+            h1(id="hh")
+             marquee Spesifikasi Teknis
+            p(id="q09").bullets OS and Apps :
+            ul
+                li 
+                li 1. Windows Store
+                li 2. Windows 10
+        
+        section(id="p0005")
+            h1(id="hh")
+             marquee Spesifikasi Teknis
+            p(id="q10").bullets Processors :
+            ul
+                li 
+                li 1. Intel 32 bit architecture
+                li 2. Microsoft Holographic Processing Unit (HPU 1.0)
+                
+        section(id="p0006")
+            h1(id="hh")
+             marquee Spesifikasi Teknis
+            p(id="q11").bullets Memory :
+            ul
+                li 
+                li 1. 64GB Flash
+                li 2. 2GB RAM (2GB CPU and 1GB HPU)
+                
+        section(id="p0007")
+            h1(id="hh")
+             marquee Spesifikasi Teknis
+            p(id="q12").bullets Weight :
+            ul
+                li 
+                li * 579 g
+                
+        section(id="p0008")
+            h1(id="hh")
+              marquee Informasi Tambahan
+            p(id="q13") Apakah IMU itu? 
+            Sebuah unit pengukuran inersia, inertial measurement unit atau IMU, adalah sebuah perangkat elektronik yang mengukur dan melaporkan kecepatan kerajinan itu, orientasi, dan gaya gravitasi, menggunakan kombinasi akselerometer dan giroskop, kadang-kadang juga magnetometer. Imu biasanya digunakan untuk manuver pesawat, termasuk kendaraan udara tak berawak (UAV), antara lain banyak, dan pesawat ruang angkasa, termasuk satelit dan pendarat. Perkembangan terkini memungkinkan untuk produksi perangkat GPS IMU-enabled. Sebuah IMU memungkinkan penerima GPS untuk bekerja ketika GPS-sinyal tidak tersedia, seperti di terowongan, di dalam bangunan, atau ketika interferensi elektronik hadir. Sebuah IMU nirkabel dikenal sebagai WiMu. 
+            IMU merupakan komponen utama dari sistem navigasi inersia digunakan di pesawat terbang, pesawat ruang angkasa, perahu, dan rudal
+            
+        section(id="p0009")
+            h1(id="hh")
+                marquee Bagaimana dengan Google Glass?
+            p(id="q14") Sebenarnya Google Glass direncanakan layaknya AR, sayangnya meleset, gagal. Didesain minimalis, dengan berencana memberikan style futuristik yang keren, malah membuat Google Glass terpaksa memangkas fitur-fiturnya. Sehingga Google Glass hanya mampu menampilkan kemampuan multimedia yang terbatas, dan kebanyakan hanya menu-menu dua dimensi. Namun demikian perangkat ini malah dijual seharga $1500! Setengah harga dari HoloLens. Ironisnya, proyek Google Glass ini dihentikan di minggu yang sama ketika HoloLens didemonstrasikan
+        
+        section(id="p0010")
+            h1(id="hh")
+                marquee Perbedaan Oculust Rift dengan Microsoft holoLens
+            p(id="q15") Oculus Rift lebih tepat digunakan untuk tujuan bermain game jika pemainnya lebih suka untuk merasakan sensasi hadir ke dalam game. Oculus Rift juga dapat digunakan untuk pelatihan pembedahan secara murah, karena prosedur pembedahan telah diproyeksikan ke dalam dunia maya. Sedangkan Microsoft HoloLens lebih tepat digunakan untuk alat bantu terhadap suatu pekerjaan, contohnya untuk memproyeksikan hasil desain 3D kedalam dunia nyata untuk mempermudah para graphic designer. Walau demikian, bukan berarti Microsoft HoloLens tidak tepat untuk digunakan bermain game. Karena Microsoft HoloLens juga dapat menghadirkan pengalaman bermain game yang spektakuler.
+            
+        section(id="p0011")
+            h1(id="hh")
+                marquee Ada 7 alat virtual saat ini
+            p(id="q16").bullets Diantaranya :
+            ul
+                li 
+                li 1. Oculus Rift
+                li 2. Samsung Gear VR
+                li 3. Google Cardboard
+                li 4. Microsoft Hololens
+                li 5. FOVE Eye Tracking VR
+                li 6. Magic Leap
+                li 7. Sony Project Morpheus
+                
     script(src='build/build.js')
