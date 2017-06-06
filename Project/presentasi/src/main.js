@@ -9,7 +9,6 @@ var bespoke = require('bespoke'),
   hash = require('bespoke-hash'),
   progress = require('bespoke-progress'),
   forms = require('bespoke-forms');
-
 // Bespoke.js
 bespoke.from('article', [
   aria3d(),
@@ -26,5 +25,9 @@ bespoke.from('article', [
 // Prism syntax highlighting
 // This is actually loaded from "bower_components" thanks to
 // debowerify: https://github.com/eugeneware/debowerify
-require('prism');
-
+require('prism')
+$('#p04').hide();
+$('#p05').hide();
+$(document).ready(function(){$(document).keyup(function(objEvent){(objEvent)?keycode=objEvent.keyCode:keycode=event.keyCode;if(keycode==81){$("#p02").slideToggle();}});});
+$(document).ready(function(){$(document).keyup(function(objEvent){(objEvent)?keycode=objEvent.keyCode:keycode=event.keyCode;if(keycode==87){$("#p04").slideToggle();}});});
+$(document).ready(function(){$(document).keyup(function(objEvent){(objEvent)?keycode=objEvent.keyCode:keycode=event.keyCode;if(keycode==69){$("#p05").slideToggle();}});});

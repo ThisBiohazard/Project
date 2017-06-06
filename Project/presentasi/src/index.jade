@@ -5,17 +5,20 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
     title Tugas Project
     link(rel='stylesheet', type='text/css', href='build/build.css')
-    script(src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js")
+    script(type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js")
     script(type="text/javascript" src='build/jquery.cycle.all.latest.js')
     script(src='build/color.js')
     script(type="text/javascript")
         $(document).ready(function(){$('#content-slider').cycle({fx:'zoom'});});
+    script        
+        $(document).ready(function(){$(document).keyup(function(objEvent){(objEvent)?keycode=objEvent.keyCode:keycode=event.keyCode;console.log(keycode);});});
   body
 
     article(id="ppp" class="gradient")
 
       section(id="p01")
-        <h1 id="hh"><marquee>Microsoft HoloLens</marquee></h1>
+        h1(id="hh")
+            marquee Microsoft HoloLens
         div(id="content-slider")
             <img src="https://winpoin.com/wp-content/uploads/2015/12/HoloLens.jpg" alt="Smiley face" style="float:center;width:300px;height:250px;"/>
             <img src="https://cdn.evbuc.com/eventlogos/158963085/8d104c85a5b64ada973291b25e644aad.jpg" alt="Smiley face" style="float:right;width:300px;height:250px;"/>
@@ -29,71 +32,46 @@ html
           li Muhammad Fathur
           
       section(id="p03")
-        <h1 id="hh"><marquee>Apa itu Microsoft Hololens?</marquee></h1>
+        h1(id="hh")
+            marquee Apa itu Microsoft Hololens?
         p(id="p04") Microsoft HoloLens adalah sebuah teknologi komputasi visual yang memiliki fungsi mirip seperti kacamata pintar. Microsoft Hololens menggabungkan antara virtual reality dan augmented reality sehingga menciptakan mixed reality. Mixed reality memungkinkan membawa tampilan grafis dalam dunia virtual ke dalam dunia nyata. Pengguna bisa berinteraksi dengan benda virtual yang dihasilkan oleh microsoft hololens.Microsoft Hololens juga mampu mengenali tatapan dan suara. Microsoft Hololens dilengkapi dengan lensa high definition see through holographic yang memungkinkan pengguna dapat membuat dan membentuk hologram dengan gerakan, berkomunikasi dengan aplikasi menggunakan suara. Microsoft HoloLens dapat memberi info lebih detail tentang apa yang sedang dilihat pengguna atau memahami perintah pengguna, baik perintah dengan perkatakan, atau melalui gerakan tubuh.
 
-      section
-       h2(id="p022").bullet Technical Specifications
-        ul
-        li See-through Holographic Lenses (Waveguides)
-        li 2 HD 16:9 Light Engines
-        li Automatic Pupillary Distance Calibration
-        li Holographic Resolution: 2.3M Total Light Points
-        li Holographic Density: >2.5k Radiants (Light Points per Radian)       
+      section(id="p06")
+        h1(id="hh") 
+            marquee Microsoft HoloLens, 3D Hologram in Real Life
+        p(id="p05") Microsoft HoloLens meluncurkan prototipe pertamanya di Redmond, Washington baru-baru ini. Bentuk Microsoft HoloLens nampak seperti headset yang mencolok, ramping dengan lensa transparan. Anda masih dapat melihat dunia di sekitar Anda melalui alat tersebut, tapi tiba-tiba dunia yang berubah dengan objek 3D mengambang di udara, layar virtual pada dinding dan ruang tamu Anda tertutup karakter virtual memantul dari dinding. Microsoft HoloLens memiliki semua kerja komputer yang diintegrasikan langsung kedalam headset. Itu berarti tidak ada kabel atau bahkan smartphone diperlukan untuk mengoperasikannya. Teknologi di dalamnya membuat perangkat canggih ini mengenali gerakan, suara pengguna serta bisa memetakan keadaan sekitar.
+        
 
-      section
-       h2(id="p022").bullet Sensors
-        ul
-        li 1 IMU (Inertial Measurement Unit)
-        li 4 Environment Understanding Cameras
-        li 1 Depth Camera
-        li 1 2MP Photo / HD Video Camera
-        li Mixed Reality Capture
-        li 4 Microphones
-        li 1 Ambient Light Sensor
+      section(id="p08")
+        h1(id="hh") 
+            marquee Tapi bagaimana HoloLens bisa bekerja?
+        p(id="p04") satu yang paling penting adalah cara mereka menampilkan gambar tepat di depan mata si pengguna. Seperti perangkat elektronik pada umumnya, mereka menggunakan layar untuk melakukan pekerjaan ini. Namun layar yang digunakan bukanlah layar biasa. Layar yang digunakan disini adalah layar transparan yang berada di bagian dalam perangkat ini. Jadi, daripada menutupi lingkungan sekitar dengan layar, HoloLens menggunakan lingkungan sekitar tersebut dan menambah lapisan dimana gambar hologram tersebut berada. Layar transparan inilah yang membuat pengguna tetap bisa melihat apa yang ada dibaliknya.
+        
 
-      section
-       h2(id="p022").bullet Input/ Output/ Connectivity :
-        ul
-        li Built-in Speakers
-        li Audio 3.5mm Jack 
-        li Volume Up/Down
-        li Brightness Up/Down
-        li Power Button
-        li Battery Status LEDs
-        li Wi-Fi 802.11ac
-        li Micro-USB 2.0
-        li Cable
+      section(id="p07")
+        h1(id="hh") 
+            marquee Sambungan...       
+        p(id="p04") Tentu ada banyak lainnya selain layar transparan di HoloLens ini. Bagaimana cara mereka membuat objek yang ada bisa dilihat dari segala arah? Sensor yang terdapat di atas layar HoloLens adalah jawabannya. Perangkat ini memiliki beberapa sensor dan kamera di bagian depannya untuk memindai ruangan di sekitar anda dan mengumpulkan informasi yang ada sebanyak-banyaknya. Berdasarkan informasi dari sensor tersebut, HoloLens akan meletakkan objek dalam ruang 3D di dalamnya dan menampilkan gambar yang tepat berdasarkan posisi anda. Microsoft belum mengatakan secara detil apa sensor yang dipakai untuk memetakan ruangan sekitar, tapi kemungkinan besar sensor tersebut menggunakan kombinasi dari video dan infrared untuk memperkirakan jauh dekatnya tembok dan objek di sekitar pengguna. Sensor tersebut dapat melihat sebesar 120 derajat dan selain memindai ruangan di sekitar anda, sensor tersebut juga akan mendeteksi tangan anda untuk berinteraksi dengan apa yang ditampilkan oleh HoloLens.
          
       section
-       h2(id="p022").bullet OS and Apps :
-        ul
-        li Windows 10
-        li Windows Store
+        h1(id="hh") 
+            marquee Sambungan...
+        p(id="p05") Tentu saja, memindai ruangan dam gerak tangan tidaklah cukup. HoloLens juga harus mendeteksi gerak gerik kepala anda. Maka dari itu, HoloLens juga mempunyai accelerometer yang digunakan untuk mengetahui seberapa cepat kepala anda bergerak, gyroscope untuk mengetahui kemiringan dari kepala pengguna dan juga magnetometer untuk menjalankan kompas. Data-data tersebut kemudian dikombinasikan dan digunakan untuk mengetahui ruangan anda dan dimana kepala penggunan. Data-data yang diambil oleh HoloLens bisa dikatakan sangat banyak. Seseorang dari Microsoft mengatakan bahwa data yang diambil dari sensor-sensor tersebut bahkan mencapai skala terabyte. Angka tersebut jauh diatas angka maksimal dari ukuran yang bisa ditangani oleh perangkat mobile. Namun, hardware dari HoloLens ini tidak perlu untuk memproses data sebesar ini, karena adanya HPU, atau Holographic Processing Unit. Prosesor ini akan mengecilkan data-data dari sensor tadi menjadi potongan-potongan data yang jauh lebih kecil dan bisa ditangani oleh CPU dan GPU dari HoloLens. 
 
       section
-       h2(id="p022").bullet Processors :
-        ul
-        li Intel 32 bit Architecture
-        li Microsoft Holographic Processing Unit (HPU 1.0)
+        h1(id="hh") 
+            marquee Sambungan...
+        p(id="p05") Merasa ada yang kurang? Tepat sekali. Hal tersebut adalah suara. HoloLens mempunyai speaker di sebelah kanan dan kirinya. Speaker ini tidak akan menutup suara sekitar anda seperti earphone biasanya. Mereka menggunakan suara binaural, yang adalah teknologi suara 3D untuk membuat suara yang ada terletak seperti bersumber dari objek yang ada di HoloLens. Jadi katakanlah anda membuat tv di tembok anda, ketika berputar suara dari tv itu akan terasa seperti dibelakang anda. Dan hal luar biasa lainnya adalah perangkat ini tidak butuh untuk dikoneksikan ke komputer atau apapun. Mereka sepenuhnya wireless dan semua yang ditampilkan oleh HoloLens diproses langsung dari hardwarenya. Bayangkan jika Anda bisa menampilkan ramalan cuaca, atau update dari media sosial anda, bahkan membuat hewan peliharaan hologram di rumah anda. 
 
       section
-       h2(id="p022").bullet Specifications :
-       h2(id="p022").bullet Memory :
-        ul
-        li 64GB Flash
-        li 2GB RAM (2GB CPU and 1GB HPU)
-       h2(id="p022").bullet And weight is 579 g
 
       section
-        <h1 id="hh"><marquee>Microsoft HoloLens, 3D Hologram in Real Life</marquee></h1>
+        h2 
+            Microsoft HoloLens, 3D Hologram in Real Life
         p(id="p04") Microsoft HoloLens meluncurkan prototipe pertamanya di Redmond, Washington baru-baru ini. Bentuk Microsoft HoloLens nampak seperti headset yang mencolok, ramping dengan lensa transparan. Anda masih dapat melihat dunia di sekitar Anda melalui alat tersebut, tapi tiba-tiba dunia yang berubah dengan objek 3D mengambang di udara, layar virtual pada dinding dan ruang tamu Anda tertutup karakter virtual memantul dari dinding. Microsoft HoloLens memiliki semua kerja komputer yang diintegrasikan langsung kedalam headset. Itu berarti tidak ada kabel atau bahkan smartphone diperlukan untuk mengoperasikannya. Teknologi di dalamnya membuat perangkat canggih ini mengenali gerakan, suara pengguna serta bisa memetakan keadaan sekitar.
 
       section  
-        P
-        p
-        <img src="http://images.cnnindonesia.com/visual/2015/01/22/ce30b57e-9eb3-4918-bd2e-80930ee2f72e_169.jpg?w=650" style="float:right;width:250px;height:140px;"/>
-        p(id="p04") Microsoft berbagi contoh revolusioner bagaimana Windows 10 memungkinkan pergeseran dari tampilan tradisional mesin-sentris dari komputasi menjadi interaksi yang jauh lebih pribadi dan humanistik. Sebagai platform komputasi hologram pertama di dunia, Windows 10 meliputi satu set API yang memungkinkan pengembang untuk menciptakan pengalaman hologram dunia secara nyata. Melalui Windows 10, hologram dapat menjadi aplikasi universal Windows, dan semua aplikasi universal Windows lainnya juga mampu bekerja sebagai hologram –hal yang memungkinkan pengguna untuk menempatkan hologram tiga dimensi dalam dunia nyata dan memungkinkan mereka untuk mendapatkan cara-cara baru dalam berkomunikasi, serta mengeksplorasi hal-hal yang lebih personal.
+          p(id="p05") Microsoft berbagi contoh revolusioner bagaimana Windows 10 memungkinkan pergeseran dari tampilan tradisional mesin-sentris dari komputasi menjadi interaksi yang jauh lebih pribadi dan humanistik. Sebagai platform komputasi hologram pertama di dunia, Windows 10 meliputi satu set API yang memungkinkan pengembang untuk menciptakan pengalaman hologram dunia secara nyata. Melalui Windows 10, hologram dapat menjadi aplikasi universal Windows, dan semua aplikasi universal Windows lainnya juga mampu bekerja sebagai hologram –hal yang memungkinkan pengguna untuk menempatkan hologram tiga dimensi dalam dunia nyata dan memungkinkan mereka untuk mendapatkan cara-cara baru dalam berkomunikasi, serta mengeksplorasi hal-hal yang lebih personal.
 
       section
           <img src="http://2.bp.blogspot.com/-bMYzbjKBJcc/VOofNcs6HtI/AAAAAAAABJA/k-zVwvP9Ato/s1600/hololens-4.jpg" alt="Smiley face" style="float:center;width:500px;height:350px;"/>
