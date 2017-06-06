@@ -34,6 +34,8 @@ $('#q02').hide();
 $('#q03').hide();
 $('#q04').hide();
 $('#q05').hide();
+$('#q14').hide();
+$('#q15').hide();
 $(document).ready(function(){$(document).keyup(function(objEvent){(objEvent)?keycode=objEvent.keyCode:keycode=event.keyCode;if(keycode==81){$("#p02").slideToggle();}});});
 $(document).ready(function(){$(document).keyup(function(objEvent){(objEvent)?keycode=objEvent.keyCode:keycode=event.keyCode;if(keycode==87){$("#p04").slideToggle();}});});
 $(document).ready(function(){$(document).keyup(function(objEvent){(objEvent)?keycode=objEvent.keyCode:keycode=event.keyCode;if(keycode==69){$("#p05").slideToggle();}});});
@@ -42,3 +44,5 @@ $(document).ready(function(){$(document).keyup(function(objEvent){(objEvent)?key
 $(document).ready(function(){$(document).keyup(function(objEvent){(objEvent)?keycode=objEvent.keyCode:keycode=event.keyCode;if(keycode==89){$("#q03").slideToggle();}});});
 $(document).ready(function(){$(document).keyup(function(objEvent){(objEvent)?keycode=objEvent.keyCode:keycode=event.keyCode;if(keycode==85){$("#q04").slideToggle();}});});
 $(document).ready(function(){$(document).keyup(function(objEvent){(objEvent)?keycode=objEvent.keyCode:keycode=event.keyCode;if(keycode==73){$("#q05").slideToggle();}});});
+$(document).ready(function(){$(document).keyup(function(objEvent){(objEvent)?keycode=objEvent.keyCode:keycode=event.keyCode;if(keycode==79){$("#q14").slideToggle();}});});
+$(document).ready(function(){$(document).keyup(function(objEvent){(objEvent)?keycode=objEvent.keyCode:keycode=event.keyCode;if(keycode==80){$("#q15").slideToggle();}});});
